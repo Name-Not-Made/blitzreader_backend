@@ -9,6 +9,7 @@ table! {
     mangas (id) {
         id -> Int4,
         descriptions -> Varchar,
+        reading_status -> Varchar,
         genre -> Varchar,
         completed -> Bool,
     }

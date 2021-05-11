@@ -27,6 +27,7 @@ pub struct Manga {
     pub id: i32,
     pub descriptions: String,
     pub genre: String,
+    pub reading_status: String,
     pub completed: bool,
 }
 
